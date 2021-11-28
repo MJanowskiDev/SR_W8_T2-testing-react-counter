@@ -31,7 +31,7 @@ const Counter = ({ start }) => {
 				</button>
 			</div>
 			<div>
-				<input value={valueByHand} onChange={onInputChanged} defaultValue={0} type="number" />
+				<input value={valueByHand} onChange={onInputChanged} type="number" />
 				<button id="set" onClick={onSetHandle}>
 					Set
 				</button>
